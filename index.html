@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ohmyfood</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Shrikhand&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./resources/style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- SPINNER LOADER
+      ================================================= -->
+      <div class="spinner-wrapper">
+        <div class="spinner-container">
+          <div class="spinner">
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- HEADER
+      ================================================= -->
+      <header id="header">
+        <img src="./resources/images/logo/ohmyfood.png" alt="" class="logo" />
+      </header>
+      <!-- LOCALISATION BOX
+      ================================================= -->
+      <section class="localisation">
+        <div class="bloc-wrapper">
+          <p><i class="fa-solid fa-location-dot"></i>Paris, Belleville</p>
+          <br />
+        </div>
+
+        <iframe
+          class="google-map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83998.76457543198!2d2.276995541486795!3d48.858946580710985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1f06e2b70f%3A0x40b82c3688c9460!2sParis%2C%20France!5e0!3m2!1sfr!2scm!4v1651135599598!5m2!1sfr!2scm"
+          width="600"
+          height="200"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </section>
+      <!-- HERO SECTION
+      ================================================= -->
+      <section class="hero">
+        <div class="section-wrapper">
+          <h2 class="title">Réservez le menu qui vous convient</h2>
+          <p>
+            Dévouvrez des restaurants d'exception, sélectionnés par nos soins.
+          </p>
+          <button class="hero-btn">Explorer nos restaurants</button>
+        </div>
+      </section>
+      <!-- MAIN BLOC
+      ================================================= -->
+      <main>
+        <!-- FUNCTIONNEMENT SECTION
+      ================================================= -->
+        <section class="functionnement">
+          <div class="section-wrapper">
+            <h2 class="title">Fonctionnement</h2>
+            <ul class="menu">
+              <li class="menu-item">
+                <span class="number">1</span>
+                <span class="icon"
+                  ><i class="fa-solid fa-mobile-screen-button"></i
+                ></span>
+                <p>Choisissez un restaurant</p>
+              </li>
+              <li class="menu-item">
+                <span class="number">2</span>
+                <span class="icon"><i class="fa-solid fa-list"></i></span>
+                <p>Composez votre menu</p>
+              </li>
+              <li class="menu-item">
+                <span class="number">3</span>
+                <span class="icon"><i class="fa-solid fa-store"></i></span>
+                <p>Dégustez au restaurant</p>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <!-- RESTAURANT SECTION
+      ================================================= -->
+        <section class="restaurants">
+          <div class="section-wrapper">
+            <h2 class="title">Restaurants</h2>
+            <ul class="res-list">
+              <li class="res-list-item">
+                <a href="./menu-palette.html">
+                  <span class="new-tag">Nouveau</span>
+                  <img
+                    src="./resources/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg"
+                    alt="restaurant : La palette du goût"
+                  />
+                  <div class="wrapper-box">
+                    <div class="text-box">
+                      <h3>La palette du goût</h3>
+                      <p>Ménilmontant</p>
+                    </div>
+                    <div class="heart-wrapper">
+                      <i class="fas fa-heart"></i>
+                      <i class="far fa-heart"></i>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="res-list-item">
+                <a href="./menu-note-enchantee.html">
+                  <span class="new-tag">Nouveau</span>
+                  <img
+                    src="./resources/images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg"
+                    alt="restaurant : La note enchantée"
+                  />
+                  <div class="wrapper-box">
+                    <div class="text-box">
+                      <h3>La note enchantée</h3>
+                      <p>Charonne</p>
+                    </div>
+                    <div class="heart-wrapper">
+                      <i class="fas fa-heart"></i>
+                      <i class="far fa-heart"></i>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="res-list-item">
+                <a href="./menu-a-la-française.html">
+                  <img
+                    src="./resources/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg"
+                    alt="restaurant : A la française "
+                  />
+                  <div class="wrapper-box">
+                    <div class="text-box">
+                      <h3>A la française</h3>
+                      <p>Cité Rouge</p>
+                    </div>
+                    <div class="heart-wrapper">
+                      <i class="fas fa-heart"></i>
+                      <i class="far fa-heart"></i>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="res-list-item">
+                <a href="./menu-delice-du-sens.html">
+                  <img
+                    src="./resources/images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg"
+                    alt=""
+                  />
+                  <div class="wrapper-box">
+                    <div class="text-box">
+                      <h3>Le délice des sens</h3>
+                      <p>Folie-Méricourt</p>
+                    </div>
+                    <div class="heart-wrapper">
+                      <i class="fas fa-heart"></i>
+                      <i class="far fa-heart"></i>
+                    </div>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </main>
+      <!-- FOOTER
+      ================================================= -->
+      <footer id="footer">
+        <div class="section-wrapper">
+          <h1 class="footer-title"><a href="./index.html">Ohmyfood</a></h1>
+          <ul>
+            <li>
+              <a class="util-link" href="#"
+                ><span><i class="fa-solid fa-utensils"></i></span>Proposer un
+                restaurant</a
+              >
+            </li>
+            <li>
+              <a class="util-link" href="#">
+                <span><i class="fa-solid fa-handshake-angle"></i></span>Devenir
+                partenaire</a
+              >
+            </li>
+            <li><a href="#">Mentions légales</a></li>
+            <li><a href="mailto:ohmyfoodg@contact.com">Contact</a></li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
